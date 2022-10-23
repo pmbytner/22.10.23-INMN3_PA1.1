@@ -1,0 +1,12 @@
+﻿@{
+
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@{
+    for(uint i = 0; i < ViewBag.Id; i++)
+    {
+        <p>Witaj @ViewData["Imię"]!</p>
+    }
+}
